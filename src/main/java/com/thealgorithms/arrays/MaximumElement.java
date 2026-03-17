@@ -1,17 +1,21 @@
 package com.thealgorithms.arrays;
 
 /**
- * This class provides a method to find the maximum element in an array.
+ * Finds the maximum element in an array.
  */
-public class MaximumElement {
+public final class MaximumElement {
+
+    private MaximumElement() {
+        // utility class
+    }
 
     /**
-     * Finds the maximum value in the given array.
+     * Returns the maximum element in the array.
      *
-     * @param arr the input array
-     * @return the maximum element in the array
+     * @param arr input array
+     * @return maximum value
      */
-    public static int findMax(int[] arr) {
+    public static int max(int[] arr) {
         int max = Integer.MIN_VALUE;
 
         for (int num : arr) {
