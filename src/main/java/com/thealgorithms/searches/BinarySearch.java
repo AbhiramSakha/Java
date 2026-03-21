@@ -125,3 +125,17 @@ class BinarySearch implements SearchAlgorithm {
         }
     }
 }
+/**
+ * Performs Binary Search on a sorted array.
+ *
+ * Binary Search works by repeatedly dividing the search interval in half.
+ * It compares the target value to the middle element of the array.
+ * If they are not equal, the half in which the target cannot lie is eliminated.
+ *
+ * Example:
+ * Input: arr = [1, 3, 5, 7, 9], target = 5
+ * Output: Index = 2
+ *
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
